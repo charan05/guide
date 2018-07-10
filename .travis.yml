@@ -15,7 +15,7 @@ before_deploy:
 
 deploy:
   - provider: wordpress-plugin
-    edge:
+    
     on:
       php: 5.5.9
       tags: true
