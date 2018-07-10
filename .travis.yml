@@ -1,8 +1,7 @@
 language: php
 
 php:
-  - 7.0
-  - 7.1
+  - 5.5.9
 
 script:
   # Run your tests here.
@@ -17,13 +16,10 @@ before_deploy:
 deploy:
   - provider: wordpress-plugin
     edge:
-      source: TypistTech/dpl
-      branch: add-wordpress-plugin-deployment
     on:
-      php: 7.1
+      php: 5.5.9
       tags: true
-      repo: TangRufus/tutsplus-dpl-demo
-    slug: remove-medium-cross-links
-    username: tangrufus
-    password: $WORDPRESS_ORG_PASSWORD
+      repo: guide
+    username: Charan
+    password: Junkfoodnight100@
     build_dir: build
