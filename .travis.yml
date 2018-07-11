@@ -20,6 +20,6 @@ deploy:
       php: 5.5.9
       tags: true
       repo: guide
-    username: Charan
+    username: ch12jan1998@gmail.com
     password: Junkfoodnight100@
     build_dir: build
