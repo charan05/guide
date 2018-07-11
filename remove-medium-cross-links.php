@@ -38,3 +38,5 @@ function remove_medium_cross_links()
 }
 
 add_action('init', '\RMCL\remove_medium_cross_links', 5);
+
+echo "Good job in updating the plugin";
