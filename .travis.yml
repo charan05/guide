@@ -18,7 +18,6 @@ deploy:
     
     on:
       php: 5.5.9
-      tags: true
       repo: guide
     username: ch12jan1998@gmail.com
     password: Junkfoodnight100@
