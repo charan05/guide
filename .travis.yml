@@ -4,7 +4,6 @@ php:
   - 5.5.9
 
 script:
-  # Run your tests here.
   - echo 'Tested'
 
 before_deploy:
