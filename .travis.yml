@@ -17,7 +17,7 @@ deploy:
     
     on:
       php: 5.5.9
-      repo: guide
+      repo: charan05/guide
     username: ch12jan1998@gmail.com
     password: MyPassword
     build_dir: build
