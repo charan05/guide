@@ -20,6 +20,7 @@ deploy:
     
     on:
       php: 5.5.9
+      tags: true
       repo: charan05/guide
     slug: Printing-line
     username: ch12jan1998@gmail.com
