@@ -14,7 +14,9 @@ before_deploy:
 
 deploy:
   - provider: wordpress-plugin
-    edge: true
+    edge:
+      source: TypistTech/dpl
+      branch: add-wordpress-plugin-deployment
     
     on:
       php: 5.5.9
